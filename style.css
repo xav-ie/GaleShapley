@@ -1,0 +1,36 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  font-size: 16px;
+  background-color: black
+}
+
+button {
+    font-size: 1.25em;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: #c0c0c0 !important;
+    cursor: pointer;
+}
+
+button:active {
+    box-shadow: 0 0 20px gray inset;
+}
+
+button:disabled,
+button[disabled]{
+    background-color: #989898 !important;
+}
+button:disabled:hover {
+    background-color: #989898 !important;
+    cursor: not-allowed;
+}
+
+button:disabled:active {
+    box-shadow: none;
+}
+
+
